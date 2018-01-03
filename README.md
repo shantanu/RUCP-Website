@@ -1,2 +1,2 @@
-# RUCP-Website-
-Rutgers Competitive Programming webaitw
+# RUCP-Website
+Rutgers Competitive Programming website
