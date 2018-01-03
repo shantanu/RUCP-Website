@@ -1,0 +1,11 @@
+.portrait{
+    height: 200px;
+    width: 200px;
+}
+.upcoming, .inquiries{
+    background-color: lightgrey;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
