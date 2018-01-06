@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,10 +24,10 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Home</a></li>
-                <li><a href = "#">About Us</a></li>
-				<li><a href="#">Upcoming</a></li>
-                <li><a href="#">Eboard</a></li>
+				<li><a href="#0">Home</a></li>
+                <li><a href = "#1">About Us</a></li>
+				<li><a href="#2">Upcoming</a></li>
+                <li><a href="#3">Eboard</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Calendar</a></li>
                 <li><a href="#">Upcoming</a></li>
@@ -36,17 +36,28 @@
 		</div>
 	</div>
 </nav>
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" id = "0">
 	<div class="container">
+        <div class = "row">
+            <br>
+        </div>
 		<h1>RUCP LOGO</h1>
 		<p>Rutgers Competitive Programming Club</p>
 		<br>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Join our Mailing List!</a> 
-        <a class="btn btn-primary btn-lg" href="#" role="button">Follow our Facebook</a>
+		<a class="btn btn-primary btn-lg" href="https://facebook.us17.list-manage.com/subscribe?u=6f972426229aef63c97a02e85&id=a312091b08" target ="_blank" role="button">Join our Mailing List!</a> 
+        <a class="btn btn-primary btn-lg" href="https://www.facebook.com/groups/1650479645246326/" target = "_blank" role="button">Follow our Facebook</a>
 	</div>
+    <div class = "row">
+            <br>
+            <br>
+        </div>
 </div>
-<div class = "about_me">
+<div class = "about_us" id = "1">
     <div class="container">
+        <div class = "row">
+            <br>
+            <br>
+        </div>
         <div class="row">
             <h1>About Us</h1>
         </div>
@@ -57,11 +68,16 @@
         <div class = "row">
             <br>
             <br>
+            <br>
         </div>
     </div>
 </div>
-<div class = "upcoming">
+<div class = "upcoming" id = "2">
     <div class="container">
+        <div class = "row">
+            <br>
+            <br>
+        </div>
         <div class="row">
             <h1>Upcoming Events</h1>
         </div>
@@ -86,12 +102,14 @@
         <div class = "row">
             <br>
             <br>
+            <br>
         </div>
     </div>
 </div>
-<div class = "eboard">
+<div class = "eboard" id = "3">
     <div class = "container">
         <div class = "row">
+            <br>
             <br>
             <h1>Eboard</h1>
             <br>
@@ -103,87 +121,28 @@
                 <img class = "portrait" src = "pics/rey.jpg">
             </div>
             <div class = "col-md-4">
-                <p>Pope</p>
-                <p>Rishab Chawla</p>
+                <p>Vice President</p>
+                <p>Ankeet Parikh</p>
                 <img class = "portrait" src = "pics/rey.jpg">
             </div>
             <div class = "col-md-4">
-                <p>Overlord</p>
-                <p>Amber Rawson</p>
+                <p>Treasurer</p>
+                <p>Sam Gupta</p>
                 <img class = "portrait" src = "pics/rey.jpg">
             </div>
         </div>
         <div class = "row">
+            <br>
             <br>
             <br>
         </div>
     </div>
 </div>
-<div class = "inquiries">
+<div class = "contact">
     <div class = "container">
-        <div class="row">
-            <h1>Inquiries</h1>
-        </div>
-        <div class = "row">
+        <div class = "row text-right">
             <br>
-        </div>
-        
-        
-        <div class = "row">
-            <div class = "col-md-3"></div>
-            <div class = "col-md-6">
-                <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">&nbsp;&nbsp;Name:&nbsp;&nbsp;</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-            </div>
-            <div class = "col-md-3"></div>
-        </div>
-        <div class = "row">
-            <br>
-        </div>
-        
-        
-        <div class = "row">
-            <div class = "col-md-3"></div>
-            <div class = "col-md-6">
-                <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">&nbsp;&nbsp;Email:&nbsp;&nbsp;&nbsp;</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-            </div>
-            <div class = "col-md-3"></div>
-        </div>
-        <div class = "row">
-            <br>
-        </div>
-        
-        
-        <div class = "row">
-            <div class = "col-md-3"></div>
-            <div class = "col-md-6">
-                <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">&nbsp;Subject:&nbsp;</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-            </div>
-            <div class = "col-md-3"></div>
-        </div>
-        <div class = "row">
-            <br>
-        </div>
-        
-        <div class = "row">
-            <div class = "col-md-3"></div>
-            <div class = "col-md-6">
-                <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">Message:</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-            </div>
-            <div class = "col-md-3"></div>
-        </div>
-        <div class = "row">
+            <h4> <a href = "mailto:ru.competitive.programming@gmail.com" target = "_blank"> Contact Us <img src = "pics/mail_icon.png" class = "icon"></a></h4> 
             <br>
         </div>
     </div>

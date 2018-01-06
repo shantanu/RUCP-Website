@@ -2,8 +2,11 @@
     height: 200px;
     width: 200px;
 }
-.upcoming, .inquiries{
+.upcoming{
     background-color: lightgrey;
+}
+.contact{
+    background-color: dimgrey;
 }
 .icon{
     height: 20px;
