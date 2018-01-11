@@ -1,6 +1,21 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .portrait{
     height: 200px;
     width: 200px;
+}
+.navbar, .jumbotron, .about_us, .upcoming, .eboard, .contact{
+    width: 100vw;
+}
+.jumbotron{
+    background-color: black;
+}
+.jumbotron h1, .jumbotron p{
+    color: indianred;
+    z-index: 100;
+    position: relative;
 }
 .upcoming{
     background-color: lightgrey;
@@ -11,4 +26,11 @@
 .icon{
     height: 20px;
     width: 20px;
+}
+#particles-js {
+    width: 100vw;
+    height: 100vh;
+    left: 0vw;
+    top: 0vh;
+    position: absolute;
 }
