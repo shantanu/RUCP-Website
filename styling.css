@@ -11,6 +11,7 @@ html, body {
 }
 .jumbotron{
     background-color: black;
+    height: 100vh;
 }
 .jumbotron h1, .jumbotron p{
     color: indianred;
